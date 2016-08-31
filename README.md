@@ -10,4 +10,9 @@ EVEONLINE_CLIENT_SECRET=
 EVEONLINE_REDIRECT=
 ```
 
+Add the following to your config/app.php
+```
+nullx27\Socialite\EveOnline\EveOnlineServiceProvider::class,
+```
+
 Get your Eve Online SSO credentials here: https://developers.eveonline.com/applications/
