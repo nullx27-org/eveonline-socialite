@@ -60,7 +60,7 @@ class Provider extends AbstractProvider implements ProviderInterface
     protected function mapUserToObject(array $user)
     {
         return (new User)->setRaw($user)->map([
-            'character_id' => $user['CharacterID'],
+            'id' => $user['CharacterID'],
             'name' => $user['CharacterName'],
             'owner_hash' => $user['CharacterOwnerHash'],
             'avatar' => 'https://image.eveonline.com/Character/' . $user['CharacterID'] . '_128.jpg',
