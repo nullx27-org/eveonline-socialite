@@ -36,7 +36,7 @@ use Socialite;
 class AuthController extends Controller
 {
     /**
-     * Redirect the user to the GitHub authentication page.
+     * Redirect the user to the Eve Online authentication page.
      *
      * @return Response
      */
@@ -46,7 +46,7 @@ class AuthController extends Controller
     }
 
     /**
-     * Obtain the user information from GitHub.
+     * Obtain the user information from Eve Online.
      *
      * @return Response
      */
