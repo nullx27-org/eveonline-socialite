@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": "^5.6 || ^7.0",
-        "laravel/socialite": "^2.0"
+        "laravel/socialite": "3.*"
     },
     "autoload": {
         "psr-4": {
