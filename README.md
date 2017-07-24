@@ -19,10 +19,14 @@ EVEONLINE_REDIRECT=
 
 (Get your Eve Online SSO credentials here: https://developers.eveonline.com/applications/)
 
+#### Laravel <= 5.4
 Add the following to your config/app.php
 ```
 nullx27\Socialite\EveOnline\EveOnlineServiceProvider::class,
 ```
+
+#### Laravel 5.5
+Service Provider is auto discovered.
 
 ## Usage
 

@@ -16,5 +16,12 @@
         "psr-4": {
             "nullx27\\Socialite\\EveOnline\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "nullx27\\Socialite\\EveOnline\\EveOnlineServiceProvider"
+            ]
+        }
     }
 }
