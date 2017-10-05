@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "nullx27\\Socialite\\EveOnline\\EveOnlineServiceProvider"
+                "nullx27\\Socialite\\EveOnline\\Providers\\EveOnlineServiceProvider"
             ]
         }
     }
