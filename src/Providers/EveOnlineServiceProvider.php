@@ -1,6 +1,6 @@
 <?php
 
-namespace nullx27\Socialite\EveOnline;
+namespace nullx27\Socialite\EveOnline\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -18,7 +18,7 @@ class EveOnlineServiceProvider extends ServiceProvider
             'eveonline',
             function ($app) use ($socialite) {
                 $config = $app['config']['services.eveonline'];
-                return $socialite->buildProvider(Provider::class, $config);
+                return $socialite->buildProvider(EveOnlineSocialiteProvider::class, $config);
             }
         );
     }
@@ -31,7 +31,7 @@ class EveOnlineServiceProvider extends ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            __DIR__.'/../config/services.php', 'services'
+            __DIR__ . '/../config/services.php', 'services'
         );
     }
 }

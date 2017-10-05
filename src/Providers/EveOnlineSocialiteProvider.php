@@ -1,11 +1,11 @@
 <?php
-namespace nullx27\Socialite\EveOnline;
+namespace nullx27\Socialite\EveOnline\Providers;
 
 use Laravel\Socialite\Two\ProviderInterface;
 use Laravel\Socialite\Two\AbstractProvider;
 use Laravel\Socialite\Two\User;
 
-class Provider extends AbstractProvider implements ProviderInterface
+class EveOnlineSocialiteProvider extends AbstractProvider implements ProviderInterface
 {
 
     protected $scopeSeparator = ' ';
