@@ -22,7 +22,7 @@ EVEONLINE_REDIRECT=
 #### Laravel <= 5.4
 Add the following to your config/app.php
 ```
-nullx27\Socialite\EveOnline\EveOnlineServiceProvider::class,
+nullx27\Socialite\EveOnline\Providers\EveOnlineServiceProvider::class,
 ```
 
 #### Laravel 5.5
